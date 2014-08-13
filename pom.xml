@@ -32,22 +32,30 @@
 		<repository>
 			<id>lib</id>
 			<url>https://github.com/whgudfkr/lib/</url>
-			<releases>
-				<enabled>true</enabled>
-			</releases>
-			<snapshots>
-				<enabled>true</enabled>
-			</snapshots>
 		</repository>
 		<repository>
 			<id>jsoup</id>
 			<url>http://jsoup.org/</url>
-			<releases>
-				<enabled>true</enabled>
-			</releases>
-			<snapshots>
-				<enabled>true</enabled>
-			</snapshots>
+		</repository>
+		<repository>
+			<id>activiti</id>
+			<url>https://maven.alfresco.com/nexus/content/repositories/activiti/</url>
+		</repository>
+		<repository>
+			<id>joda-releases</id>
+			<url>https://oss.sonatype.org/content/repositories/joda-releases</url>
+		</repository>
+		<repository>
+			<id>opennlp.sourceforge.net</id>
+			<url>http://opennlp.sourceforge.net/maven2</url>
+		</repository>
+		<repository>
+			<id>maven.ontotext.com</id>
+			<url>http://maven.ontotext.com/archiva/repository/public</url>
+		</repository>
+		<repository>
+			<id>repo.scalanlp.org</id>
+			<url>http://repo.scalanlp.org/repo</url>
 		</repository>
   </repositories>
 
