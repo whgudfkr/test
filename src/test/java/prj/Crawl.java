@@ -1,23 +1,23 @@
 package prj;
 
-import kr.co.shineware.nlp.komoran.core.analyzer.Komoran;
-import org.jsoup.Jsoup;
-import org.jsoup.nodes.Document;
-import org.jsoup.nodes.Element;
-import org.jsoup.select.Elements;
+import org.snu.ids.ha.index.Keyword;
+import org.snu.ids.ha.index.KeywordExtractor;
+import org.snu.ids.ha.index.KeywordList;
 
 public class Crawl {
-	public static void main(String[] args) {
+	public static void startmama(String content) {
+		Crawl momo = new Crawl();
+		momo.keTest(content);
+	}
 
-		try {
-			Komoran km = new Komoran("/home/whgudfkr/test/models");
-			Document doc = Jsoup.connect("http://www.naver.com").get();
-			Elements link = doc.select("a");
-			for(Element e : link){
-				String s = e.attr("href");
-				System.out.println(s);
-			}
-		} catch (Exception e) {
+	public void keTest(String string) {
+		KeywordExtractor ke = new KeywordExtractor();
+		KeywordList kl = ke.extractKeyword(string, true);
+		for (int i = 0; i < kl.size(); i++) {
+			Keyword kwrd = kl.get(i);
+			if (kwrd.getTag().compareTo("NNG") == 0
+					|| kwrd.getTag().compareTo("NNP") == 0)
+				System.out.println(kwrd.getString()+"\t"+kwrd.getCnt());
 
 		}
 	}
