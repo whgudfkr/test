@@ -18,7 +18,7 @@
 		</repository>
 		<repository>
 			<id>lib</id>
-			<url>git://github.com/whgudfkr/lib</url>
+			<url>https://github.com/whgudfkr/lib/</url>
 			<releases>
 				<enabled>true</enabled>
 			</releases>
