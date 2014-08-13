@@ -7,35 +7,11 @@
   <description>haha	</description>
   <url>http://maven.apache.org</url>
   <repositories>
-		<repository>
-			<id>mvn2</id>
-			<url>http://repo1.maven.org/maven2/</url>
-			<releases>
-				<enabled>true</enabled>
-			</releases>
-			<snapshots>
-				<enabled>true</enabled>
-			</snapshots>
-		</repository>
 
-		<repository>
-			<id>egovframe</id>
-			<url>http://www.egovframe.go.kr/maven/</url>
-			<releases>
-				<enabled>true</enabled>
-			</releases>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-		</repository>
 
 		<repository>
 			<id>lib</id>
 			<url>https://github.com/whgudfkr/lib/tree/master/</url>
-		</repository>
-		<repository>
-			<id>jsoup</id>
-			<url>http://jsoup.org/</url>
 		</repository>
   </repositories>
 
