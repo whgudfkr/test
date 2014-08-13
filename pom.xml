@@ -5,6 +5,7 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>whgudfkr</name>
   <description>haha	</description>
+  <url>http://maven.apache.org</url>
   <repositories>
 		<repository>
 			<id>lib</id>
