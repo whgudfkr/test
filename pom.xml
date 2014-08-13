@@ -8,8 +8,8 @@
   <dependencies>
   	<dependency>
   		<groupId>org.snu.ids</groupId>
-  		<artifactId>ha</artifactId>
-  		<version></version>
+  		<artifactId>org.snu.ids.ha</artifactId>
+  		<version>2.3</version>
   	</dependency>
   </dependencies>
 </project>  
