@@ -33,5 +33,9 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="C:/Users/KDE/Desktop/jsoup-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/KDE/Desktop/TagCloud Project/딱따구리/komoran-2.0.2-beta.jar"/>
+	<classpathentry kind="lib" path="C:/Users/KDE/Desktop/TagCloud Project/딱따구리/org.snu.ids.ha.jar"/>
+	<classpathentry kind="lib" path="C:/Users/KDE/Desktop/TagCloud Project/딱따구리/shineware-common-2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/KDE/Desktop/TagCloud Project/딱따구리/shineware-ds-1.0.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
