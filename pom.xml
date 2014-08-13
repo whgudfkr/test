@@ -39,34 +39,54 @@
 				<enabled>true</enabled>
 			</snapshots>
 		</repository>
+		<repository>
+			<id>jsoup</id>
+			<url>http://jsoup.org/</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
   </repositories>
 
 
   <dependencies>
   	<dependency>
-  		<groupId>jsoup</groupId>
-  		<artifactId>jsoup</artifactId>
-		<version>1.6.1</version>
-  	</dependency>
-  	<dependency>
-  		<groupId>org.snu.ids</groupId>
-  		<artifactId>org.snu.ids.ha</artifactId>
+		<groupId>org.jsoup</groupId>
+		<artifactId>jsoup</artifactId>
+		<version>1.7.2</version>
+	</dependency>
+
+	<dependency>
+
+		<groupId>kr.co.shineware</groupId>
+
+		<artifactId>komoran</artifactId>
+
+		<version>2.0.1b</version>
+
+	</dependency>
+
+	<dependency>
+
+		<groupId>kr.co.shineware</groupId>
+
+		<artifactId>shineware-common</artifactId>
+
 		<version>2.0</version>
-  	</dependency>
+
+	</dependency>
+
 	<dependency>
-  		<groupId>komoran</groupId>
-  		<artifactId>komoran</artifactId>
-		<version>2.0.2-beta</version>
-  	</dependency>
-	<dependency>
-  		<groupId>shineware-common</groupId>
-  		<artifactId>shineware-common</artifactId>
-		<version>2.0</version>
-  	</dependency>
-	<dependency>
-  		<groupId>shineware-ds</groupId>
-  		<artifactId>shineware-ds</artifactId>
+
+		<groupId>kr.co.shineware</groupId>
+
+		<artifactId>shineware-ds</artifactId>
+
 		<version>1.0</version>
-  	</dependency>
+
+	</dependency>
   </dependencies>
 </project>  
