@@ -5,9 +5,10 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>whgudfkr</name>
   <description>haha	</description>
-</project>
-  <dependency>
-	<groupId>org.snu.ids</groupId>
-	<artifactId>ha</artifactId>
-	<version></version>
-</dependency>
+  <dependencies>
+  	<dependency>
+  		<groupId>org.snu.ids</groupId>
+  		<artifactId>ha</artifactId>
+  	</dependency>
+  </dependencies>
+</project>  
