@@ -11,7 +11,7 @@ public class Crawl {
 	public static void main(String[] args) {
 
 		try {
-			Komoran km = new Komoran("aa");
+			Komoran km = new Komoran("/home/whgudfkr/test/model");
 			Document doc = Jsoup.connect("http://www.naver.com").get();
 			Elements link = doc.select("a");
 			for(Element e : link){
