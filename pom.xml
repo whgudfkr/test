@@ -16,7 +16,6 @@
 				<enabled>true</enabled>
 			</snapshots>
 		</repository>
-
 		<repository>
 			<id>lib</id>
 			<url>git://github.com/whgudfkr/lib</url>
