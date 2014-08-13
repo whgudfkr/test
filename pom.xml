@@ -18,8 +18,8 @@
 		</repository>
 
 		<repository>
-			<id>kokoma</id>
-			<url>root@166.104.242.56:/home/whgudfkr/Analysis</url>
+			<id>lib</id>
+			<url>git://github.com/whgudfkr/lib</url>
 			<releases>
 				<enabled>true</enabled>
 			</releases>
