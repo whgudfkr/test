@@ -9,7 +9,7 @@ public class Crawl {
 	public static void main(String[] args) {
 
 		try {
-			Document doc = Jsoup.connect("http://www.naver.com").get();
+			Document doc = Jsoup.connect("http://kde.hanyang.ac.kr").get();
 			Elements link = doc.select("a");
 			for(Element e : link){
 				String s = e.attr("href");
