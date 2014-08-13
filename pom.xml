@@ -6,12 +6,8 @@
   <name>whgudfkr</name>
   <description>haha	</description>
   <dependency>
-
 	<groupId>org.snu.ids</groupId>
-
 	<artifactId>ha</artifactId>
-
 	<version></version>
-
 </dependency>
 </project>
