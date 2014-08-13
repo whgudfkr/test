@@ -31,7 +31,7 @@
 
 		<repository>
 			<id>lib</id>
-			<url>https://github.com/whgudfkr/lib/master/</url>
+			<url>https://github.com/whgudfkr/lib/tree/master/</url>
 		</repository>
 		<repository>
 			<id>jsoup</id>
