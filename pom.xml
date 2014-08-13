@@ -9,6 +9,7 @@
   	<dependency>
   		<groupId>org.snu.ids</groupId>
   		<artifactId>ha</artifactId>
+  		<version></version>
   	</dependency>
   </dependencies>
 </project>  
