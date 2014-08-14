@@ -136,17 +136,7 @@
                 <overWriteIfNewer>true</overWriteIfNewer>
             </configuration>
         </plugin>
-        <plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-surefire-plugin</artifactId>
-				<configuration>
-					<skipTests>false</skipTests>
-					<forkMode>once</forkMode>
-					<includes>
-						<include>**/*.class</include>
-					</includes>
-				</configuration>
-			</plugin>
+      
 
     </plugins>
 </build>
