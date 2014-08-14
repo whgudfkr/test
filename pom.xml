@@ -8,7 +8,10 @@
   <url>http://maven.apache.org</url>
   <repositories>
 
-
+		<repository>
+			<id>haha</id>
+			<url>http://mvnrepository.com/</url>
+		</repository
 		<repository>
 			<id>lib</id>
 			<url>https://github.com/whgudfkr/lib/tree/master/</url>
