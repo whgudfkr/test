@@ -125,7 +125,7 @@
             <executions>
                 <execution>
                     <id>copy-dependencies</id>
-                    <phase>package</phase>
+                    <phase>prepare-package</phase>
                     <goals>
                         <goal>copy-dependencies</goal>
                     </goals>
@@ -136,16 +136,7 @@
                 <overWriteIfNewer>true</overWriteIfNewer>
             </configuration>
         </plugin>
-        <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-assembly-plugin</artifactId>
-        <version>2.2.1</version>
-        <configuration>
-          <descriptorRefs>
-            <descriptorRef>jar-with-dependencies</descriptorRef>
-          </descriptorRefs>
-        </configuration>
-      </plugin>
+        
     </plugins>
 </build>
 
