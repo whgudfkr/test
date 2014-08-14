@@ -88,7 +88,6 @@
 
 	</dependency>
   </dependencies>
-  <plugin>
   	<configuration>  
         <finalName>${jar.name}</finalName>  
         <!-- jar 파일이 생성될 폴더 -->  
@@ -110,6 +109,5 @@
         </archive>  
     </configuration>
 
-  </plugin>
   
 </project>  
