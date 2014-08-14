@@ -7,10 +7,10 @@
   <description>haha	</description>
   <url>http://maven.apache.org</url>
   <repositories>
-
+		
 		<repository>
 			<id>haha</id>
-			<url>http://mvnrepository.com/</url>
+			<url>http://166.104.242.56:8080/nexus/content/repositories/thirdparty/</url>
 		</repository>
 		<repository>
 			<id>lib</id>
