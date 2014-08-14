@@ -132,7 +132,7 @@
                 </execution>
             </executions>
             <configuration>
-                <outputDirectory>${deploy.target.dir}/${lib.dir}</outputDirectory>
+                <outputDirectory>target/lib</outputDirectory>
                 <overWriteIfNewer>true</overWriteIfNewer>
             </configuration>
         </plugin>
