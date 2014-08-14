@@ -10,10 +10,30 @@
 		
 		<repository>
 			<id>haha</id>
-			<url>http://166.104.242.56:8080/nexus/content/repositories/thirdparty/</url>
+			
+			<url>http://166.104.242.56:8080/nexus/content/groups/public/</url>
+			
+			<releases><enabled>true</enabled></releases>
+
+			<snapshots><enabled>true</enabled></snapshots>
 		</repository>
 	
   </repositories>
+  <pluginRepositories>
+
+    <pluginRepository>
+
+	<id>central</id>
+
+	<url>http://166.104.242.56:8080/nexus/content/groups/public</url>
+
+	<releases><enabled>true</enabled></releases>
+
+	<snapshots><enabled>true</enabled></snapshots>
+
+  </pluginRepository>
+
+</pluginRepositories>
 
 
   <dependencies>
@@ -59,4 +79,5 @@
 
 	</dependency>
   </dependencies>
+  
 </project>  
