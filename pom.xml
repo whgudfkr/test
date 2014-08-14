@@ -99,6 +99,10 @@
                 <finalName>${jar.name}</finalName>
                 <!-- jar 파일이 생성될 폴더 -->
                 <outputDirectory>target/</outputDirectory>
+                <descriptorRefs>
+			<descriptorRef>jar-with-dependencies</descriptorRef>
+		</descriptorRefs>
+
                 <archive>
                     <manifest>
                         <!-- public static void main() 함수가 있는 클래스 지정 -->
