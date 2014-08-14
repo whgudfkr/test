@@ -99,9 +99,7 @@
                 <finalName>${jar.name}</finalName>
                 <!-- jar 파일이 생성될 폴더 -->
                 <outputDirectory>target/</outputDirectory>
-                <descriptorRefs>
-			<descriptorRef>jar-with-dependencies</descriptorRef>
-		</descriptorRefs>
+                
 
                 <archive>
                     <manifest>
@@ -136,6 +134,9 @@
                 </execution>
             </executions>
             <configuration>
+            	<descriptorRefs>
+			<descriptorRef>jar-with-dependencies</descriptorRef>
+		</descriptorRefs>
                 <outputDirectory>target/lib</outputDirectory>
                 <overWriteIfNewer>true</overWriteIfNewer>
             </configuration>
