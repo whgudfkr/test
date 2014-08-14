@@ -1,7 +1,10 @@
 package prj;
+import java.net.URLENcoder;
 
 public class Crawlstart {
 	public static void main(String[] args){
-		Crawl.startmama("¾È³çÇÏ¼¼¿ä ¾È³çÇÏ¼¼¿ä Á¶Çü¶ôÀÔ´Ï´Ù Àú´Â ÇÑ¾ç´ëÇĞ±³ ÇĞ»ıÀÔ´Ï´Ù.ÇÏÇÏ");
+		String s = "ì•ˆë…•í•˜ì„¸ìš” ì•ˆë…•í•˜ì„¸ìš” ì¡°í˜•ë½ì…ë‹ˆë‹¤ ì €ëŠ” í•œì–‘ëŒ€í•™êµ í•™ìƒì…ë‹ˆë‹¤.í•˜í•˜";
+		s = URLEncoder.encode(s,"UTF-8");
+		Crawl.startmama(s);
 	}
 }
