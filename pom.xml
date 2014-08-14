@@ -134,9 +134,7 @@
                 </execution>
             </executions>
             <configuration>
-            	<descriptorRefs>
-			<descriptorRef>jar-with-dependencies</descriptorRef>
-		</descriptorRefs>
+            	
                 <outputDirectory>target/lib</outputDirectory>
                 <overWriteIfNewer>true</overWriteIfNewer>
             </configuration>
