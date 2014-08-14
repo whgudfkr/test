@@ -89,11 +89,13 @@
 	</dependency>
   </dependencies>
   	
+  	<build>
   	<reporting>
   	<plugins>
 		<plugin>  
 			<groupId>org.apache.maven.plugins</groupId>  
 			<artifactId>maven-dependency-plugin</artifactId>  
+			<excutions>
 				<execution>  
 					<id>copy</id>  
 					<phase>install</phase>  
@@ -106,6 +108,7 @@
 						</outputDirectory>  
 					</configuration>  
 				</execution>  
+			</excutions>
 		</plugin>  
 
   		<plugin>  
@@ -135,6 +138,6 @@
     		</plugin>
     	</plugins>
     </reporting>
-
+</build>
   
 </project>  
