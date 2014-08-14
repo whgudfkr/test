@@ -12,10 +12,7 @@
 			<id>haha</id>
 			<url>http://166.104.242.56:8080/nexus/content/repositories/thirdparty/</url>
 		</repository>
-		<repository>
-			<id>lib</id>
-			<url>https://github.com/whgudfkr/lib/tree/master/</url>
-		</repository>
+	
   </repositories>
 
 
