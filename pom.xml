@@ -88,6 +88,14 @@
 
 	</dependency>
   </dependencies>
+  	
+  	<reporting>
+  		<plugin>  
+	    		<groupId>org.apache.maven.plugins</groupId>  
+    			<artifactId>maven-jar-plugin</artifactId>  
+    			<version>2.3.2</version>  
+	
+  	
   	<configuration>  
         <finalName>${jar.name}</finalName>  
         <!-- jar 파일이 생성될 폴더 -->  
@@ -108,6 +116,8 @@
             </manifest>  
         </archive>  
     </configuration>
+    </plugin>
+    </reporting>
 
   
 </project>  
