@@ -15,7 +15,7 @@
 		<repository>
 			<id>haha</id>
 
-			<url>http://166.104.242.56:8080/nexus/content/repositories/thirdparty/</url>
+			<url>http://166.104.242.59:8090/nexus/content/repositories/thirdparty/</url>
 
 			<releases>
 				<enabled>true</enabled>
@@ -28,7 +28,7 @@
 		<repository>
 			<id>central</id>
 
-			<url>http://166.104.242.56:8080/nexus/content/groups/public</url>
+			<url>http://166.104.242.59:8090/nexus/content/groups/public</url>
 
 			<releases>
 				<enabled>true</enabled>
@@ -46,7 +46,7 @@
 
 			<id>central</id>
 
-			<url>http://166.104.242.56:8080/nexus/content/groups/public</url>
+			<url>http://166.104.242.59:8090/nexus/content/groups/public</url>
 
 			<releases>
 				<enabled>true</enabled>
